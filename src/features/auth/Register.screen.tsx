@@ -1,5 +1,6 @@
-import { BackArrowIcon, GoogleIcon, VerticalLogo } from "@/assets/svg/Icon";
+import { GoogleIcon, VerticalLogo } from "@/assets/svg/Icon";
 import { Text, View } from "@/components/Themed";
+import BackButton from "@/components/ui/BackButton";
 import { router } from "expo-router";
 import { Pressable } from "react-native";
 import { TextInput } from "react-native-gesture-handler";
@@ -7,9 +8,7 @@ import { TextInput } from "react-native-gesture-handler";
 const RegisterScreen = () => {
     return (
         <View className="flex-1">
-            <Pressable className="self-start p-2 mt-1 ml-1 rounded-md">
-                <BackArrowIcon width="30" height="30" className="text-gray-800" />
-            </Pressable>
+            <BackButton />
 
             <View className="flex justify-center items-center pt-3">
                 <VerticalLogo width="80" height="80" />

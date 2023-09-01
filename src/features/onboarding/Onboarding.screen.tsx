@@ -40,8 +40,8 @@ const OnboardingScreen = () => {
 
             <View className="flex flex-row justify-center">
                 <Link href="/login" asChild>
-                    <Pressable className="bg-[#FFBD54] px-16 py-4 rounded-3xl">
-                        <Text className="text-xl text-gray-800"> Skip </Text>
+                    <Pressable className="bg-blue-500 px-16 py-4 rounded-3xl">
+                        <Text className="text-xl text-white"> Skip </Text>
                     </Pressable>
                 </Link>
             </View>
