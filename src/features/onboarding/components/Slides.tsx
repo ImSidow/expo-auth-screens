@@ -22,8 +22,8 @@ const Slide = (slide: { icon: ReactNode; title: string; description: string }) =
     return (
         <View className="flex items-center justify-center h-full">
             {slide.icon}
-            <Text className="text-3xl mt-[15%] font-bold text-gray-800">{slide.title}</Text>
-            <Text className="w-10/12 text-center mt-5 text-[21px] text-gray-600">{slide.description}</Text>
+            <Text className="text-3xl mt-[15%] font-bold text-[#924C18]">{slide.title}</Text>
+            <Text className="w-10/12 text-center mt-5 text-[21px] text-gray-500">{slide.description}</Text>
         </View>
     );
 };
