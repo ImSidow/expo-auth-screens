@@ -1,11 +1,2 @@
-import { Text, View } from '@/components/Themed';
-
-const OnboardingScreen = () => {
-    return (
-        <View className="">
-            <Text> Onboarding screen </Text>
-        </View>
-    );
-};
-
-export default OnboardingScreen;
+import OnboardingScreen from "@/features/onboarding/Onboarding.screen";
+export default () => <OnboardingScreen />;
